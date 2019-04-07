@@ -1,0 +1,399 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 30,
+        "ok": 18,
+        "ko": 12
+    },
+    "minResponseTime": {
+        "total": 251,
+        "ok": 253,
+        "ko": 251
+    },
+    "maxResponseTime": {
+        "total": 1819,
+        "ok": 1819,
+        "ko": 373
+    },
+    "meanResponseTime": {
+        "total": 574,
+        "ok": 761,
+        "ko": 295
+    },
+    "standardDeviation": {
+        "total": 445,
+        "ok": 491,
+        "ko": 45
+    },
+    "percentiles1": {
+        "total": 334,
+        "ok": 592,
+        "ko": 279
+    },
+    "percentiles2": {
+        "total": 625,
+        "ok": 1126,
+        "ko": 324
+    },
+    "percentiles3": {
+        "total": 1481,
+        "ok": 1571,
+        "ko": 370
+    },
+    "percentiles4": {
+        "total": 1734,
+        "ok": 1769,
+        "ko": 372
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 11,
+        "percentage": 37
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 3,
+        "percentage": 10
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 4,
+        "percentage": 13
+    },
+    "group4": {
+        "name": "failed",
+        "count": 12,
+        "percentage": 40
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 1.0344827586206897,
+        "ok": 0.6206896551724138,
+        "ko": 0.41379310344827586
+    }
+},
+"contents": {
+"group_729-epic-on-mi-630ab": {
+          "type": "GROUP",
+"name": "729 Epic on MI",
+"path": "729 Epic on MI",
+"pathFormatted": "group_729-epic-on-mi-630ab",
+"stats": {
+    "name": "729 Epic on MI",
+    "numberOfRequests": {
+        "total": 12,
+        "ok": 0,
+        "ko": 12
+    },
+    "minResponseTime": {
+        "total": 510,
+        "ok": 0,
+        "ko": 510
+    },
+    "maxResponseTime": {
+        "total": 2187,
+        "ok": 0,
+        "ko": 2187
+    },
+    "meanResponseTime": {
+        "total": 1117,
+        "ok": 0,
+        "ko": 1117
+    },
+    "standardDeviation": {
+        "total": 586,
+        "ok": 0,
+        "ko": 586
+    },
+    "percentiles1": {
+        "total": 979,
+        "ok": 0,
+        "ko": 979
+    },
+    "percentiles2": {
+        "total": 1613,
+        "ok": 0,
+        "ko": 1613
+    },
+    "percentiles3": {
+        "total": 1965,
+        "ok": 0,
+        "ko": 1965
+    },
+    "percentiles4": {
+        "total": 2143,
+        "ok": 0,
+        "ko": 2143
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 12,
+        "percentage": 100
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.41379310344827586,
+        "ok": 0,
+        "ko": 0.41379310344827586
+    }
+},
+"contents": {
+"req_getting-student-ab3c8": {
+        "type": "REQUEST",
+        "name": "Getting Student Profile",
+"path": "729 Epic on MI / Getting Student Profile",
+"pathFormatted": "req_729-epic-on-mi--59f11",
+"stats": {
+    "name": "Getting Student Profile",
+    "numberOfRequests": {
+        "total": 12,
+        "ok": 12,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 253,
+        "ok": 253,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 1819,
+        "ok": 1819,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 822,
+        "ok": 822,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 587,
+        "ok": 587,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 667,
+        "ok": 667,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 1350,
+        "ok": 1350,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 1658,
+        "ok": 1658,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 1787,
+        "ok": 1787,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 6,
+        "percentage": 50
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 2,
+        "percentage": 17
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 4,
+        "percentage": 33
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.41379310344827586,
+        "ok": 0.41379310344827586,
+        "ko": 0
+    }
+}
+    },"req_creating-assess-ad9f2": {
+        "type": "REQUEST",
+        "name": "Creating Assessment",
+"path": "729 Epic on MI / Creating Assessment",
+"pathFormatted": "req_729-epic-on-mi--5ffb5",
+"stats": {
+    "name": "Creating Assessment",
+    "numberOfRequests": {
+        "total": 12,
+        "ok": 0,
+        "ko": 12
+    },
+    "minResponseTime": {
+        "total": 251,
+        "ok": 0,
+        "ko": 251
+    },
+    "maxResponseTime": {
+        "total": 373,
+        "ok": 0,
+        "ko": 373
+    },
+    "meanResponseTime": {
+        "total": 295,
+        "ok": 0,
+        "ko": 295
+    },
+    "standardDeviation": {
+        "total": 45,
+        "ok": 0,
+        "ko": 45
+    },
+    "percentiles1": {
+        "total": 279,
+        "ok": 0,
+        "ko": 279
+    },
+    "percentiles2": {
+        "total": 324,
+        "ok": 0,
+        "ko": 324
+    },
+    "percentiles3": {
+        "total": 370,
+        "ok": 0,
+        "ko": 370
+    },
+    "percentiles4": {
+        "total": 372,
+        "ok": 0,
+        "ko": 372
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 12,
+        "percentage": 100
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.41379310344827586,
+        "ok": 0,
+        "ko": 0.41379310344827586
+    }
+}
+    }
+}
+
+     },"req_authorize----au-271f3": {
+        "type": "REQUEST",
+        "name": "Authorize - /authorize",
+"path": "Authorize - /authorize",
+"pathFormatted": "req_authorize----au-271f3",
+"stats": {
+    "name": "Authorize - /authorize",
+    "numberOfRequests": {
+        "total": 6,
+        "ok": 6,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 564,
+        "ok": 564,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 872,
+        "ok": 872,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 638,
+        "ok": 638,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 107,
+        "ok": 107,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 592,
+        "ok": 592,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 625,
+        "ok": 625,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 812,
+        "ok": 812,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 860,
+        "ok": 860,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 5,
+        "percentage": 83
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 1,
+        "percentage": 17
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.20689655172413793,
+        "ok": 0.20689655172413793,
+        "ko": 0
+    }
+}
+    }
+}
+
+}

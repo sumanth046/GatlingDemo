@@ -1,0 +1,50 @@
+RUN	com.hmhco.quality.mi.simulation.EpicSimulation		epicsimulation	1554540450061	Math Inventory Gatling Tests	2.0
+USER	Epic 729 API scenario	1	START	1554540451999	1554540451999
+REQUEST	Epic 729 API scenario	1		Authorize - /authorize	1554540452040	1554540452933	OK	 
+REQUEST	Epic 729 API scenario	1	729 Epic on MI	Getting Student Profile	1554540453019	1554540454864	OK	 
+USER	Epic 729 API scenario	2	START	1554540456150	1554540456150
+REQUEST	Epic 729 API scenario	2		Authorize - /authorize	1554540456152	1554540456713	OK	 
+REQUEST	Epic 729 API scenario	2	729 Epic on MI	Getting Student Profile	1554540456719	1554540457831	OK	 
+USER	Epic 729 API scenario	3	START	1554540459250	1554540459250
+REQUEST	Epic 729 API scenario	3		Authorize - /authorize	1554540459252	1554540459862	OK	 
+REQUEST	Epic 729 API scenario	1	729 Epic on MI	Creating Assessment	1554540459812	1554540460185	KO	status.find.is(201), but actually found 500
+GROUP	Epic 729 API scenario	1	729 Epic on MI	1554540453015	1554540460209	2218	KO
+REQUEST	Epic 729 API scenario	1	729 Epic on MI	Getting Student Profile	1554540460217	1554540460471	OK	 
+REQUEST	Epic 729 API scenario	3	729 Epic on MI	Getting Student Profile	1554540459866	1554540461208	OK	 
+USER	Epic 729 API scenario	4	START	1554540462020	1554540462020
+REQUEST	Epic 729 API scenario	4		Authorize - /authorize	1554540462022	1554540462649	OK	 
+REQUEST	Epic 729 API scenario	2	729 Epic on MI	Creating Assessment	1554540462851	1554540463153	KO	status.find.is(201), but actually found 500
+GROUP	Epic 729 API scenario	2	729 Epic on MI	1554540456718	1554540463157	1414	KO
+REQUEST	Epic 729 API scenario	2	729 Epic on MI	Getting Student Profile	1554540463159	1554540463461	OK	 
+REQUEST	Epic 729 API scenario	4	729 Epic on MI	Getting Student Profile	1554540462656	1554540463972	OK	 
+USER	Epic 729 API scenario	5	START	1554540464791	1554540464791
+REQUEST	Epic 729 API scenario	5		Authorize - /authorize	1554540464792	1554540465404	OK	 
+REQUEST	Epic 729 API scenario	1	729 Epic on MI	Creating Assessment	1554540465451	1554540465844	KO	status.find.is(201), but actually found 500
+GROUP	Epic 729 API scenario	1	729 Epic on MI	1554540460216	1554540465847	647	KO
+USER	Epic 729 API scenario	1	END	1554540451999	1554540465859
+USER	Epic 729 API scenario	6	START	1554540467880	1554540467880
+REQUEST	Epic 729 API scenario	5	729 Epic on MI	Getting Student Profile	1554540465409	1554540465409	KO	j.n.ConnectException: handshake timed out
+GROUP	Epic 729 API scenario	5	729 Epic on MI	1554540465409	1554540475668	0	KO
+REQUEST	Epic 729 API scenario	6		Authorize - /authorize	1554540467881	1554540467881	KO	j.n.ConnectException: connection timed out: hmh-identity-provider.int.br.hmheng.io/10.32.126.35:80
+GROUP	Failed to build request Getting Student Profile: No attribute named 'token' is defined 	1554540487911
+GROUP	Failed to build request Getting Student Profile: No attribute named 'token' is defined 	1554540487915
+REQUEST	Epic 729 API scenario	5	729 Epic on MI	Getting Student Profile	1554540475670	1554540475670	KO	j.n.ConnectException: connection timed out: math-inventory-api.staging0.hmheng-math-inventory.br.internal/10.35.7.186:443
+GROUP	Epic 729 API scenario	5	729 Epic on MI	1554540475669	1554540505701	0	KO
+USER	Epic 729 API scenario	5	END	1554540464791	1554540505703
+REQUEST	Epic 729 API scenario	6		Authorize - /authorize	1554540487917	1554540487917	KO	j.n.ConnectException: connection timed out: hmh-identity-provider.int.br.hmheng.io/10.32.126.35:80
+GROUP	Failed to build request Getting Student Profile: No attribute named 'token' is defined 	1554540507938
+GROUP	Failed to build request Getting Student Profile: No attribute named 'token' is defined 	1554540507940
+USER	Epic 729 API scenario	6	END	1554540467880	1554540507940
+REQUEST	Epic 729 API scenario	3	729 Epic on MI	Creating Assessment	1554540466231	1554540466231	KO	j.u.c.TimeoutException: Request timeout to not-connected after 60000 ms
+GROUP	Epic 729 API scenario	3	729 Epic on MI	1554540459865	1554540526236	1342	KO
+REQUEST	Epic 729 API scenario	2	729 Epic on MI	Creating Assessment	1554540468451	1554540468451	KO	j.u.c.TimeoutException: Request timeout to not-connected after 60000 ms
+GROUP	Epic 729 API scenario	2	729 Epic on MI	1554540463158	1554540528455	302	KO
+USER	Epic 729 API scenario	2	END	1554540456150	1554540528456
+REQUEST	Epic 729 API scenario	4	729 Epic on MI	Creating Assessment	1554540468992	1554540468992	KO	j.u.c.TimeoutException: Request timeout to not-connected after 60000 ms
+GROUP	Epic 729 API scenario	4	729 Epic on MI	1554540462655	1554540528995	1316	KO
+REQUEST	Epic 729 API scenario	3	729 Epic on MI	Getting Student Profile	1554540526238	1554540526238	KO	j.n.ConnectException: connection timed out: math-inventory-api.staging0.hmheng-math-inventory.br.internal/10.35.39.230:443
+GROUP	Epic 729 API scenario	3	729 Epic on MI	1554540526238	1554540556274	0	KO
+USER	Epic 729 API scenario	3	END	1554540459250	1554540556274
+REQUEST	Epic 729 API scenario	4	729 Epic on MI	Getting Student Profile	1554540528997	1554540528997	KO	j.n.ConnectException: connection timed out: math-inventory-api.staging0.hmheng-math-inventory.br.internal/10.35.23.35:443
+GROUP	Epic 729 API scenario	4	729 Epic on MI	1554540528996	1554540559022	0	KO
+USER	Epic 729 API scenario	4	END	1554540462020	1554540559023

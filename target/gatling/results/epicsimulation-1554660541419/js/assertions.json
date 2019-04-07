@@ -1,0 +1,10 @@
+{
+  "simulation": "com.hmhco.quality.mi.simulation.EpicSimulation",
+  "simulationId": "epicsimulation",
+  "start": 1554660541419,
+  "description": "Math Inventory Gatling Tests",
+  "scenarios": ["Epic 729 API scenario"],
+  "assertions": [
+
+  ]
+}

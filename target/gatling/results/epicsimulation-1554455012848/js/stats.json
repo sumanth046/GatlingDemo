@@ -1,0 +1,477 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 42,
+        "ok": 42,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 247,
+        "ok": 247,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 1618,
+        "ok": 1618,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 451,
+        "ok": 451,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 319,
+        "ok": 319,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 280,
+        "ok": 280,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 535,
+        "ok": 535,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 1152,
+        "ok": 1152,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 1431,
+        "ok": 1431,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 36,
+        "percentage": 86
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 5,
+        "percentage": 12
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 1,
+        "percentage": 2
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.7924528301886793,
+        "ok": 0.7924528301886793,
+        "ko": 0
+    }
+},
+"contents": {
+"group_729-epic-on-mi-630ab": {
+          "type": "GROUP",
+"name": "729 Epic on MI",
+"path": "729 Epic on MI",
+"pathFormatted": "group_729-epic-on-mi-630ab",
+"stats": {
+    "name": "729 Epic on MI",
+    "numberOfRequests": {
+        "total": 12,
+        "ok": 12,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 785,
+        "ok": 785,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 2352,
+        "ok": 2352,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 1287,
+        "ok": 1287,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 513,
+        "ok": 513,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 1154,
+        "ok": 1154,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 1717,
+        "ok": 1717,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 2049,
+        "ok": 2049,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 2291,
+        "ok": 2291,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 12,
+        "percentage": 100
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.22641509433962265,
+        "ok": 0.22641509433962265,
+        "ko": 0
+    }
+},
+"contents": {
+"req_getting-student-ab3c8": {
+        "type": "REQUEST",
+        "name": "Getting Student Profile",
+"path": "729 Epic on MI / Getting Student Profile",
+"pathFormatted": "req_729-epic-on-mi--59f11",
+"stats": {
+    "name": "Getting Student Profile",
+    "numberOfRequests": {
+        "total": 12,
+        "ok": 12,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 247,
+        "ok": 247,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 1618,
+        "ok": 1618,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 696,
+        "ok": 696,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 479,
+        "ok": 479,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 565,
+        "ok": 565,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 1151,
+        "ok": 1151,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 1368,
+        "ok": 1368,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 1568,
+        "ok": 1568,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 6,
+        "percentage": 50
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 5,
+        "percentage": 42
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 1,
+        "percentage": 8
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.22641509433962265,
+        "ok": 0.22641509433962265,
+        "ko": 0
+    }
+}
+    },"req_creating-assess-ad9f2": {
+        "type": "REQUEST",
+        "name": "Creating Assessment",
+"path": "729 Epic on MI / Creating Assessment",
+"pathFormatted": "req_729-epic-on-mi--5ffb5",
+"stats": {
+    "name": "Creating Assessment",
+    "numberOfRequests": {
+        "total": 12,
+        "ok": 12,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 271,
+        "ok": 271,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 457,
+        "ok": 457,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 302,
+        "ok": 302,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 54,
+        "ok": 54,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 280,
+        "ok": 280,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 286,
+        "ok": 286,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 411,
+        "ok": 411,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 448,
+        "ok": 448,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 12,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.22641509433962265,
+        "ok": 0.22641509433962265,
+        "ko": 0
+    }
+}
+    },"req_posting-answer-35d28": {
+        "type": "REQUEST",
+        "name": "Posting Answer",
+"path": "729 Epic on MI / Posting Answer",
+"pathFormatted": "req_729-epic-on-mi--5e8ce",
+"stats": {
+    "name": "Posting Answer",
+    "numberOfRequests": {
+        "total": 12,
+        "ok": 12,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 261,
+        "ok": 261,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 359,
+        "ok": 359,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 289,
+        "ok": 289,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 39,
+        "ok": 39,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 268,
+        "ok": 268,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 296,
+        "ok": 296,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 358,
+        "ok": 358,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 359,
+        "ok": 359,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 12,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.22641509433962265,
+        "ok": 0.22641509433962265,
+        "ko": 0
+    }
+}
+    }
+}
+
+     },"req_authorize----au-271f3": {
+        "type": "REQUEST",
+        "name": "Authorize - /authorize",
+"path": "Authorize - /authorize",
+"pathFormatted": "req_authorize----au-271f3",
+"stats": {
+    "name": "Authorize - /authorize",
+    "numberOfRequests": {
+        "total": 6,
+        "ok": 6,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 533,
+        "ok": 533,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 789,
+        "ok": 789,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 584,
+        "ok": 584,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 92,
+        "ok": 92,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 542,
+        "ok": 542,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 560,
+        "ok": 560,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 733,
+        "ok": 733,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 778,
+        "ok": 778,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 6,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.11320754716981132,
+        "ok": 0.11320754716981132,
+        "ko": 0
+    }
+}
+    }
+}
+
+}
